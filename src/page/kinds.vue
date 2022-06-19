@@ -1,11 +1,11 @@
-
-
 <template>
-   <router-view></router-view>
+    <div>
+    分类
+    </div>
 </template>
 <script setup>
 
 </script>
-<style>
-
+<style lang="scss">
+    
 </style>
