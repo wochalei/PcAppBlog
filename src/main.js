@@ -5,5 +5,6 @@ import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 import 'animate.css'
 import 'animate.css/animate.compat.css'
-import '@/common/styles/init.scss'
+
+import '@/common/styles/index.scss'
 createApp(App).use(router).use(ElementPlus).mount('#app')
