@@ -1,6 +1,7 @@
 <template>
-    <div>
-    个人页面
+    <div class="details">
+        <h2>{{item.title}}</h2>
+     <v-md-preview :text="item.content"></v-md-preview>
     </div>
 </template>
 <script setup>
@@ -10,9 +11,10 @@ import {onMounted,ref } from 'vue'
  const  item = ref({});
  onMounted(()=>{
   item.value=JSON.parse(route.params.item);
-  console.log(item.value); 
  })
 </script>
-<style lang="scss">
-    
+<style lang="scss" scoped>
+    .details{
+        text-align: center;
+    }
 </style>

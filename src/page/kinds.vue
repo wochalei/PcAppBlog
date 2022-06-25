@@ -39,7 +39,7 @@ onMounted(() => {
     box-shadow: var(--card-hover-box-shadow);
     color: var(--font-color);
   }
-  :deep(){
+  :deep(.el-tree ){
 
     div{
       background-color: var(--bg-color);
